@@ -1,7 +1,17 @@
 // Author: Indranil Chandra and Vaibhav Yengul
 // Linkit One code for Godrej Cooking Aid Probe
 // The code has been released under MIT License
-// Add all the below libraries and its dependancies for the code to work
+
+// Download the latest version of Arduino IDE from:
+// https://www.arduino.cc/en/Main/Software
+
+// Configure Arduino IDE to program Linkit One Development Board from MediaTek Labs, use below link to get started:
+// http://labs.mediatek.com/site/global/developer_tools/mediatek_linkit/get-started/index.gsp
+
+// Add all the below libraries and its dependancies for the code to work:
+// https://github.com/leouzz/Linkit-One-OneWire
+// https://github.com/Seeed-Studio/Grove_Starter_Kit_For_LinkIt/tree/master/libraries/Suli_LinkIt_One
+// https://github.com/Seeed-Studio/Grove_LED_Bar
 
 ///////////////////Libraries//////////////////////////////////////////////////////////////////////////////////////////
 #include <OneWire.h> 
