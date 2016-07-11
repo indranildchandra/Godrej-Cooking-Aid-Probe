@@ -8,7 +8,7 @@
 // Configure Arduino IDE to program Linkit One Development Board from MediaTek Labs, use below link to get started:
 // http://labs.mediatek.com/site/global/developer_tools/mediatek_linkit/get-started/index.gsp
 
-// Add all the below libraries and its dependancies for the code to work:
+// Add all the below libraries and its dependancies to compile and burn the code on MediaTek Linkit One Development board:
 // https://github.com/leouzz/Linkit-One-OneWire
 // https://github.com/Seeed-Studio/Grove_Starter_Kit_For_LinkIt/tree/master/libraries/Suli_LinkIt_One
 // https://github.com/Seeed-Studio/Grove_LED_Bar
