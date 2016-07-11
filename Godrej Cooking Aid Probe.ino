@@ -1,3 +1,8 @@
+// Author: Indranil Chandra and Vaibhav Yengul
+// Linkit One code for Godrej Cooking Aid Probe
+// The code has been released under MIT License
+// Add all the below libraries and its dependancies for the code to work
+
 ///////////////////Libraries//////////////////////////////////////////////////////////////////////////////////////////
 #include <OneWire.h> 
 #include <Wire.h>
@@ -9,7 +14,7 @@
 /////////////////Global Vairables/////////////////////////////////////////////////////////////////////////////////////
 int TouchButton = 3; //TouchButton on Pin 3
 int DS18S20_Pin = 7; //DS18S20 Signal on Pin 7
-SeeedLedBar bar(5, 4);  // CLK, DTA
+SeeedLedBar bar(5, 4);  // CLK, DTA -> Connect the Vcc pin of LED bar on 3.3V
 
 OneWire ds(DS18S20_Pin); 
 float temperature;
